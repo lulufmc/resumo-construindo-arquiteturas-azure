@@ -12,6 +12,7 @@ Após fazer o login, vá na barra de pesquisa e pesquise por "Grupo de recursos"
 Usar zonas de disponibilidade e regiões estrategicamente ajuda a garantir a resiliência, desempenho e segurança dos seus sistemas na nuvem.
 
 REGIÕES: Uma região é uma localização geográfica onde os recursos de computação em nuvem são armazenados. Cada provedor de nuvem, como AWS, Azure e Google Cloud, tem várias regiões espalhadas pelo mundo, e essas regiões são compostas por zonas de disponibilidade. Escolher uma região próxima ao seu público ou usuários reduz a latência, e você pode distribuir recursos entre várias regiões para maior segurança e disponibilidade.
+
 ZONAS DE DISPONIBILIDADE: É um data center dentro de uma região, com independência de energia, rede e recursos. Fornece proteção contra tempo de inatividade devido a falha do datacenter. Ao distribuir recursos entre múltiplas AZs, você pode garantir que um problema em uma AZ não afete seu serviço. Pode-se configurar também arquiteturas de failover, onde se uma AZ falhar, o tráfego é redirecionado para outra AZ.
 
 - Pares de região e Grupos de Recursos
